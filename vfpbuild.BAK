@@ -1,3 +1,0 @@
-lparameters filePath
-compile (filePath)
-MessageBox("COMPILED")
