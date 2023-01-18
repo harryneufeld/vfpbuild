@@ -6,3 +6,7 @@ e.g.:
 ```
 X:\vfpbuild.exe 'X:\git\repo\example.prg'
 ```
+
+## Changelog
+### v1.0.0 (18.01.2023)
+- [x] Added errormessage on build-error
