@@ -5,7 +5,8 @@ set Asserts on
 on Shutdown do CloseApplication
 
 local llOk, lcErrFile
-lcErrFile = strtran(filePath, "prg", "err")
+llOk = .T.
+lcErrFile = strtran(Lower(filePath), "prg", "err")
 
 try
 	compile (filePath)
